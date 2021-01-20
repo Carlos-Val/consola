@@ -1,0 +1,19 @@
+.general{
+    background-color:red;
+    height: 17em;
+    width: 10em;
+    display: flex;
+    flex-direction: row;
+    border-radius: 3% 3% 21% 3%;
+}
+.parteSuperior{
+    height: 8em;
+    width: 8em;
+    margin-top: 0.8em;
+    margin-left: 0.8em;
+    margin-right: 0.8em;
+    margin-bottom: 0.8em;
+    position: relative;
+    background-image: linear-gradient(to right bottom, #45686E, #3B4C58, #30323B, #1F1B1F, #000000);
+}
+

@@ -1,23 +1,25 @@
+body{
+    margin: 5em;
+}
 .general{
-    background-color:red;
+    background-color:#e9102a;
     height: 34em;
-    width: 20em;
-    
-    border-radius: 3% 3% 21% 3%;
+    width: 22em;    
+    border-radius: 3% 3% 18% 3%;
 }
 .parteSuperior{
     height: 17.5em;
-    width: 18em;
+    width: 20em;
     position: absolute;
-    left: 1.5em;
-    top: 2em;
-    /*background-color: rgb(44, 43, 41);*/
-    background-image: radial-gradient(circle at 25.79% 50%, #5f7074 0, #5e686a 16.67%, #5d6060 33.33%, #5b5757 50%, #594e4f 66.67%, #564649 83.33%, #533e45 100%);
+    left: 6em;
+    top: 7em;
+    background-color: #3e4137;
+    /*background-image: radial-gradient(circle at 25.79% 50%, #5f7074 0, #5e686a 16.67%, #5d6060 33.33%, #5b5757 50%, #594e4f 66.67%, #564649 83.33%, #533e45 100%);*/
     border-radius: 3% 3% 18% 3%;
 }
 .dentroPantalla{
     height: 12.5em;
-    width: 12.5em;
+    width: 14.5em;
     background-color: #AE9B32;
     position: absolute;
     left: 2.75em;
@@ -45,8 +47,8 @@
     width: 0.5em;
     border-radius: 100%;
     position: absolute;
-    top: 7em;
-    left: 1.95em;
+    top: 12em;
+    left: 6.60em;
        
 }
 .parentesis{
@@ -55,7 +57,7 @@
     font-size: 100%;
     position: absolute;
     top: -0.40em;
-    left: 1em;
+    left: 0.9em;
     
 }
 .power{
@@ -63,27 +65,28 @@
     font-size: 60%;
     position: absolute;
     top: 1.5em;
-    left: -0.15em;
+    left: -0.35em;
 
 }
 .cruz1{
     background-color: rgb(44, 42, 42);
+    
     height: 4.5em;
     width: 1.5em;
     position: absolute;
-    top: 22.5em;
-    left: 4em;
+    top: 27.5em;
+    left: 9em;
     z-index: 500;
     border-radius: 10%;
 
 }
 .cruz2{
-    background-color: rgb(44, 42, 42);
+    background-color:rgb(44, 42, 42);
     height: 1.5em;
     width: 4.5em;
     position: absolute;
-    top: 24em;
-    left: 2.5em;
+    top: 29em;
+    left: 7.5em;
     z-index: 501;
     border-radius: 10%;
 }
@@ -93,8 +96,8 @@
     height: 1.5em;
     width: 1.5em;
     position: absolute;
-    top: 24em;
-    left: 4em;
+    top: 29em;
+    left: 9em;
     border-radius: 100%;
     z-index: 502;
 }
@@ -103,8 +106,8 @@
     height: 4.85em;
     width: 1.75em;
     position: absolute;
-    top: 22.32em;
-    left: 3.85em;
+    top: 27.32em;
+    left: 8.85em;
     z-index: 1;
     border-radius: 10%;
 }
@@ -113,12 +116,342 @@
     height: 1.75em;
     width: 4.85em;
     position: absolute;
-    top: 23.85em;
-    left: 2.32em;
+    top: 28.85em;
+    left: 7.32em;
     z-index: 1;
     border-radius: 10%;
 }
+  
 
 
+.boton1{
+    background-color: rgb(44, 42, 42);
+    height: 2.5em;
+    width: 2.5em;
+    display: flex;
+    flex-direction: column-reverse;
+    border-radius: 50%;
+    position: absolute;
+    top: 27em;
+    left: 23em;
+    z-index: 300;
+
+}
+.letraA{
+    position: absolute;
+    top: 3.2em;
+    left: 1.3em;
+    font-size: 90%;
+    font-family:fantasy;
+}
+.boton2{
+    background-color: rgb(44, 42, 42);
+    height: 2.5em;
+    width: 2.5em;
+    display: flex;
+    flex-direction: column-reverse;
+    border-radius: 50%;
+    position: absolute;
+    top: 28.5em;
+    left: 19em;
+    z-index: 300;
+}
+.letraB{
+    position: absolute;
+    top: 3.2em;
+    left: 1.1em;
+    font-size: 90%;
+    font-family:fantasy;
+
+}
+.boton3{
+    background-color: black;
+    height: 2.75em;
+    width: 2.75em;
+    border-radius: 50%;
+    position:absolute;
+    top: 26.90em;
+    left: 22.85em;
+    z-index: 1;
+}
+.boton4{
+    background-color: black;
+    height: 2.75em;
+    width: 2.75em;
+    border-radius: 50%;
+    position:absolute;
+    top: 28.35em;
+    left: 18.85em;
+    z-index: 1;
+
+}
+.botonSelect{
+    background-color: rgb(44, 42, 42);
+    height: 1em;
+    width: 3em;
+    position: absolute;
+    top: 34em;
+    left: 12em;
+
+}
+.select{
 
 
+}
+.botonStart1{
+    background-color: rgb(44, 42, 42);
+    height: 1em;
+    width: 1em;
+    position: absolute;
+    top: 34em;
+    left: 16em;
+    border-radius: 100%;
+    z-index: 50;
+
+}
+.botonStart1Sombra{
+    background-color: black;
+    height: 1.2em;
+    width: 1.2em;
+    position: absolute;
+    top: 33.9em;
+    left: 15.9em;
+    border-radius: 100%;
+    z-index: 1;
+
+}
+.botonStart2{
+    background-color: rgb(44, 42, 42);
+    height: 1em;
+    width: 2em;
+    position: absolute;
+    top: 34em;
+    left: 16.3em;
+    
+    z-index: 50;
+
+}
+.botonStart2Sombra{
+    background-color: black;
+    height: 1.25em;
+    width: 2em;
+    position: absolute;
+    top: 33.85em;
+    left: 16.6em;
+    
+    z-index: 1;
+
+}
+.start{
+    position: absolute;
+    top: 1.5em;
+    left: 0em;
+    font-size: 100%;
+    font-family:fantasy;
+}
+
+.botonStart3{
+    background-color: rgb(44, 42, 42);
+    height: 1em;
+    width: 1em;
+    position: absolute;
+    top: 34em;
+    left: 18em;
+    border-radius: 100%;
+    z-index: 50;
+
+}
+.botonStart3Sombra{
+    background-color: black;
+    height: 1.2em;
+    width: 1.2em;
+    position: absolute;
+    top: 33.9em;
+    left: 17.9em;
+    border-radius: 100%;
+    z-index: 1;
+
+}
+.botonSelect1{
+    background-color: rgb(44, 42, 42);
+    height: 1em;
+    width: 1em;
+    position: absolute;
+    top: 34em;
+    left: 12.5em;
+    border-radius: 100%;
+    z-index: 50;
+
+}
+.botonSelect1Sombra{
+    background-color: black;
+    height: 1.2em;
+    width: 1.2em;
+    position: absolute;
+    top: 33.9em;
+    left: 14.4em;
+    border-radius: 100%;
+    z-index: 1;
+}
+.botonSelect2{
+    background-color: rgb(44, 42, 42);
+    height: 1em;
+    width: 2em;
+    position: absolute;
+    top: 34em;
+    left: 13em;
+    
+    z-index: 50;
+
+}
+.botonSelect2Sombra{
+    background-color: black;
+    height: 1.25em;
+    width: 2em;
+    position: absolute;
+    top: 33.85em;
+    left: 13em;
+    
+    z-index: 1;
+
+}
+.select{
+    position: absolute;
+    top: 1.5em;
+    left: -0.35em;
+    font-size: 100%;
+    font-family:fantasy;
+}
+
+.botonSelect3{
+    background-color: rgb(44, 42, 42);
+    height: 1em;
+    width: 1em;
+    position: absolute;
+    top: 34em;
+    left: 14.5em;
+    border-radius: 100%;
+    z-index: 50;
+
+}
+.botonSelect3Sombra{
+    background-color: black;
+    height: 1.2em;
+    width: 1.2em;
+    position: absolute;
+    top: 33.9em;
+    left: 12.4em;
+    border-radius: 100%;
+    z-index: 1;
+
+}
+.a3{
+    background-color: #f74053;
+    height: 0.4em;
+    width: 0.4em;
+    border-radius: 50%;
+    position: absolute;
+    top: 34em;
+    left: 22em;
+
+}
+.a4{
+    background-color: black;
+    height: 0.4em;
+    width: 0.4em;
+    border-radius: 50%;
+    position: absolute;
+    top: 34em;
+    left: 22.7em;
+
+}
+.a5{
+    background-color: #f74053;
+    height: 0.4em;
+    width: 0.4em;
+    border-radius: 50%;
+    position: absolute;
+    top: 34em;
+    left: 23.4em;
+
+}
+.a6{
+    background-color: black;
+    height: 0.4em;
+    width: 0.4em;
+    border-radius: 50%;
+    position: absolute;
+    top: 34em;
+    left: 24.1em;
+
+}
+.a7{
+    background-color: #f74053;
+    height: 0.4em;
+    width: 0.4em;
+    border-radius: 50%;
+    position: absolute;
+    top: 34em;
+    left: 24.8em;
+
+}
+.b2{
+    background-color: #f74053;
+    height: 0.4em;
+    width: 0.4em;
+    border-radius: 50%;
+    position: absolute;
+    top: 34.7em;
+    left: 21.3em;
+
+}
+.b3{
+    background-color: black;
+    height: 0.4em;
+    width: 0.4em;
+    border-radius: 50%;
+    position: absolute;
+    top: 34.7em;
+    left: 22em;
+
+}
+.b4{
+    background-color: #f74053;
+    height: 0.4em;
+    width: 0.4em;
+    border-radius: 50%;
+    position: absolute;
+    top: 34.7em;
+    left: 22.7em;
+
+}
+.b5{
+    background-color: black;
+    height: 0.4em;
+    width: 0.4em;
+    border-radius: 50%;
+    position: absolute;
+    top: 34.7em;
+    left: 23.4em;
+
+}
+.b6{
+    background-color: #f74053;
+    height: 0.4em;
+    width: 0.4em;
+    border-radius: 50%;
+    position: absolute;
+    top: 34.7em;
+    left: 24.1em;
+
+}
+.b7{
+    background-color: black;
+    height: 0.4em;
+    width: 0.4em;
+    border-radius: 50%;
+    position: absolute;
+    top: 34.7em;
+    left: 24.8em;
+
+}

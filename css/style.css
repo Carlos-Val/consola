@@ -1,17 +1,25 @@
 body{
-    margin: 5em;
+    margin: 5em;   
 }
+/*.prueba{
+    height: 34em;
+    width: 22em;
+    background-color:yellowgreen ;
+    z-index: 1;
+}*/
 .general{
     background-color:#e9102a;
-    height: 34em;
-    width: 22em;    
+    height: 34.5em;
+    width: 22.5em;    
     border-radius: 3% 3% 18% 3%;
+    z-index: 999;
 }
+
 .parteSuperior{
     height: 17.5em;
     width: 20em;
     position: absolute;
-    left: 6em;
+    left: 6.25em;
     top: 7em;
     background-color: #3e4137;
     /*background-image: radial-gradient(circle at 25.79% 50%, #5f7074 0, #5e686a 16.67%, #5d6060 33.33%, #5b5757 50%, #594e4f 66.67%, #564649 83.33%, #533e45 100%);*/
@@ -22,7 +30,7 @@ body{
     width: 14.5em;
     background-color: #AE9B32;
     position: absolute;
-    left: 2.75em;
+    left: 3em;
     top: 2em;
     border-radius: 3% 3% 3% 3%;
     
@@ -33,7 +41,7 @@ body{
     color: white;
     font-weight: bold;
     position: absolute;
-    left:2.75em;
+    left:3em;
     top: 14.05em;
     font-size: 110%;
 }
@@ -65,7 +73,7 @@ body{
     font-size: 60%;
     position: absolute;
     top: 1.5em;
-    left: -0.35em;
+    left: 0.1em;
 
 }
 .cruz1{
@@ -170,8 +178,8 @@ body{
     width: 2.75em;
     border-radius: 50%;
     position:absolute;
-    top: 26.90em;
-    left: 22.85em;
+    top: 26.88em;
+    left: 22.88em;
     z-index: 1;
 }
 .boton4{
@@ -180,8 +188,8 @@ body{
     width: 2.75em;
     border-radius: 50%;
     position:absolute;
-    top: 28.35em;
-    left: 18.85em;
+    top: 28.38em;
+    left: 18.88em;
     z-index: 1;
 
 }
@@ -226,17 +234,17 @@ body{
     width: 2em;
     position: absolute;
     top: 34em;
-    left: 16.3em;
+    left: 16.45em;
     
     z-index: 50;
 
 }
 .botonStart2Sombra{
     background-color: black;
-    height: 1.25em;
+    height: 1.21em;
     width: 2em;
     position: absolute;
-    top: 33.85em;
+    top: 33.90em;
     left: 16.6em;
     
     z-index: 1;
@@ -306,10 +314,10 @@ body{
 }
 .botonSelect2Sombra{
     background-color: black;
-    height: 1.25em;
+    height: 1.21em;
     width: 2em;
     position: absolute;
-    top: 33.85em;
+    top: 33.90em;
     left: 13em;
     
     z-index: 1;
@@ -455,3 +463,325 @@ body{
     left: 24.8em;
 
 }
+.c1{
+    background-color: #f74053;
+    height: 0.4em;
+    width: 0.4em;
+    border-radius: 50%;
+    position: absolute;
+    top: 35.4em;
+    left: 20.6em;
+
+}
+.c2{
+    background-color: black;
+    height: 0.4em;
+    width: 0.4em;
+    border-radius: 50%;
+    position: absolute;
+    top: 35.4em;
+    left: 21.3em;
+
+}
+.c3{
+    background-color: #f74053;
+    height: 0.4em;
+    width: 0.4em;
+    border-radius: 50%;
+    position: absolute;
+    top: 35.4em;
+    left: 22em;
+
+}
+.c4{
+    background-color: black;
+    height: 0.4em;
+    width: 0.4em;
+    border-radius: 50%;
+    position: absolute;
+    top: 35.4em;
+    left: 22.7em;
+
+}
+.c5{
+    background-color: #f74053;
+    height: 0.4em;
+    width: 0.4em;
+    border-radius: 50%;
+    position: absolute;
+    top: 35.4em;
+    left: 23.4em;
+
+}
+.c6{
+    background-color: black;
+    height: 0.4em;
+    width: 0.4em;
+    border-radius: 50%;
+    position: absolute;
+    top: 35.4em;
+    left: 24.1em;
+
+}
+.c7{
+    background-color: #f74053;
+    height: 0.4em;
+    width: 0.4em;
+    border-radius: 50%;
+    position: absolute;
+    top: 35.4em;
+    left: 24.8em;
+
+}
+.d1{
+    background-color: black;
+    height: 0.4em;
+    width: 0.4em;
+    border-radius: 50%;
+    position: absolute;
+    top: 36.1em;
+    left: 20.6em;
+
+}
+.d2{
+    background-color: #f74053;
+    height: 0.4em;
+    width: 0.4em;
+    border-radius: 50%;
+    position: absolute;
+    top: 36.1em;
+    left: 21.3em;
+
+}
+.d3{
+    background-color: black;
+    height: 0.4em;
+    width: 0.4em;
+    border-radius: 50%;
+    position: absolute;
+    top: 36.1em;
+    left: 22em;
+
+}
+.d4{
+    background-color:#f74053;
+    height: 0.4em;
+    width: 0.4em;
+    border-radius: 50%;
+    position: absolute;
+    top: 36.1em;
+    left: 22.7em;
+
+}
+.d5{
+    background-color: black;
+    height: 0.4em;
+    width: 0.4em;
+    border-radius: 50%;
+    position: absolute;
+    top: 36.1em;
+    left: 23.4em;
+
+}
+.d6{
+    background-color: #f74053;
+    height: 0.4em;
+    width: 0.4em;
+    border-radius: 50%;
+    position: absolute;
+    top: 36.1em;
+    left: 24.1em;
+
+}
+.d7{
+    background-color: black;
+    height: 0.4em;
+    width: 0.4em;
+    border-radius: 50%;
+    position: absolute;
+    top: 36.1em;
+    left: 24.8em;
+
+}
+.e1{
+    background-color: #f74053;
+    height: 0.4em;
+    width: 0.4em;
+    border-radius: 50%;
+    position: absolute;
+    top: 36.8em;
+    left: 20.6em;
+
+}
+.e2{
+    background-color: black;
+    height: 0.4em;
+    width: 0.4em;
+    border-radius: 50%;
+    position: absolute;
+    top: 36.8em;
+    left: 21.3em;
+
+}
+.e3{
+    background-color: #f74053;
+    height: 0.4em;
+    width: 0.4em;
+    border-radius: 50%;
+    position: absolute;
+    top: 36.8em;
+    left: 22em;
+
+}
+.e4{
+    background-color: black;
+    height: 0.4em;
+    width: 0.4em;
+    border-radius: 50%;
+    position: absolute;
+    top: 36.8em;
+    left: 22.7em;
+
+}
+.e5{
+    background-color: #f74053;
+    height: 0.4em;
+    width: 0.4em;
+    border-radius: 50%;
+    position: absolute;
+    top: 36.8em;
+    left: 23.4em;
+
+}
+.e6{
+    background-color: black;
+    height: 0.4em;
+    width: 0.4em;
+    border-radius: 50%;
+    position: absolute;
+    top: 36.8em;
+    left: 24.1em;
+
+}
+.e7{
+    background-color: #f74053;
+    height: 0.4em;
+    width: 0.4em;
+    border-radius: 50%;
+    position: absolute;
+    top: 36.8em;
+    left: 24.8em;
+
+}
+.f1{
+    background-color: black;
+    height: 0.4em;
+    width: 0.4em;
+    border-radius: 50%;
+    position: absolute;
+    top: 37.5em;
+    left: 20.6em;
+
+}
+.f2{
+    background-color: #f74053;
+    height: 0.4em;
+    width: 0.4em;
+    border-radius: 50%;
+    position: absolute;
+    top: 37.5em;
+    left: 21.3em;
+
+}
+.f3{
+    background-color: black;
+    height: 0.4em;
+    width: 0.4em;
+    border-radius: 50%;
+    position: absolute;
+    top: 37.5em;
+    left: 22em;
+
+}
+.f4{
+    background-color:#f74053;
+    height: 0.4em;
+    width: 0.4em;
+    border-radius: 50%;
+    position: absolute;
+    top: 37.5em;
+    left: 22.7em;
+
+}
+.f5{
+    background-color: black;
+    height: 0.4em;
+    width: 0.4em;
+    border-radius: 50%;
+    position: absolute;
+    top: 37.5em;
+    left: 23.4em;
+
+}  
+.f6{
+    background-color: #f74053;
+    height: 0.4em;
+    width: 0.4em;
+    border-radius: 50%;
+    position: absolute;
+    top: 37.5em;
+    left: 24.1em;
+
+}
+.g1{
+    background-color: #f74053;
+    height: 0.4em;
+    width: 0.4em;
+    border-radius: 50%;
+    position: absolute;
+    top: 38.2em;
+    left: 20.6em;
+
+}
+.g2{
+    background-color: black;
+    height: 0.4em;
+    width: 0.4em;
+    border-radius: 50%;
+    position: absolute;
+    top: 38.2em;
+    left: 21.3em;
+
+}
+.g3{
+    background-color: #f74053;
+    height: 0.4em;
+    width: 0.4em;
+    border-radius: 50%;
+    position: absolute;
+    top: 38.2em;
+    left: 22em;
+
+}
+.g4{
+    background-color: black;
+    height: 0.4em;
+    width: 0.4em;
+    border-radius: 50%;
+    position: absolute;
+    top: 38.2em;
+    left: 22.7em;
+
+}
+.g5{
+    background-color: #f74053;
+    height: 0.4em;
+    width: 0.4em;
+    border-radius: 50%;
+    position: absolute;
+    top: 38.2em;
+    left: 23.4em;
+
+}
+
+

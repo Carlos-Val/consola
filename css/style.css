@@ -13,6 +13,7 @@ body{
     width: 22.5em;    
     border-radius: 3% 3% 18% 3%;
     z-index: 999;
+    box-shadow: 18px 21px 33px 0px rgba(0,0,0,0.63);
 }
 
 .parteSuperior{
